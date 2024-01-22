@@ -67,6 +67,10 @@ Functions:
 - Find element in tree
 - Create new model element (for example requirement)
 
+## Statistics
+
+Display statistics of the model. Number of model elements, by type, number of diagrams, by type, etc.
+
 ## OSLC support
 
 This is a challenging but super interesting task. Add OSLC client support to Astah so that a connection to an OSLC server could
