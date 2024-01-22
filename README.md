@@ -45,6 +45,16 @@ Functions:
 - Create interfaces, operations, requests, responses, etc.
 - Customization: which is the counterpart of an OpenAPI concept (stereotype, etc.)
 
+## Legend 
+
+In some diagrams we would like to color certain elements based on certain rules. The plugin could do the following:
+
+- Define legend (name and legend items)
+- Define legend item (text color, background color, etc. and the rule)
+- Allocate a legend to one or multiple diagrams
+- See which legends are allocated to the diagram
+- Apply legend on the diagram
+
 ## Generic table
 
 We often need to list certain model elements and filter among them. The plugin would allow to display a list of elements of a certain 
