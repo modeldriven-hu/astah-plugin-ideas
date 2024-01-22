@@ -57,5 +57,23 @@ Functions:
 - Find element in tree
 - Create new model element (for example requirement)
 
-##
+## OSLC support
+
+This is a challenging but super interesting task. Add OSLC client support to Astah so that a connection to an OSLC server could
+be built up. A good starting point could be an integration to requirements part of the following reference implementation:  
+https://github.com/oslc-op/refimpl
+
+## Model import without Astah
+
+Being able to offline import a model and run for example validation rules on it. It would be great if we could put a model in a
+CI/CD environment and have a git hook to run verification / model transformation.
+
+## HTML generation
+
+Export a document into a HTML.
+
+## Model server
+
+A model server could get a model file and serve it to various interfaces. OSLC, REST, etc. It could also support locking/version
+management.
 
