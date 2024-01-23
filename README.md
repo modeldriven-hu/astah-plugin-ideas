@@ -13,6 +13,8 @@ Functions:
 - italic
 - align (left, right, center, justify)
 - color (background, foreground)
+- list
+- numbering
 - table
 - link
 - image?
