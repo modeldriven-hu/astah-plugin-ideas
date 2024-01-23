@@ -3,7 +3,9 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
-## Rich text editor [ongoing]
+## Rich text editor [partially done]
+
+- See: https://github.com/modeldriven-hu/astah-rich-document
 
 For documenting model elements Astah only provides a text area. In this plugin, when the user select a model element, the
 associated documentation would be visible in the rich text editor. When the user deselects a model element, then it the 
