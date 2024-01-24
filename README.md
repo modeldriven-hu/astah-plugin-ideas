@@ -70,6 +70,7 @@ Functions:
 - Filter elements based on a rule (groovy?)
 - Find element in tree
 - Create new model element (for example requirement)
+- Export to CSV/Excel
 
 ## Statistics
 
