@@ -49,7 +49,9 @@ Functions:
 - Create interfaces, operations, requests, responses, etc.
 - Customization: which is the counterpart of an OpenAPI concept (stereotype, etc.)
 
-## Legend 
+## Legend [done]
+
+-See: https://github.com/modeldriven-hu/astah-matrix
 
 In some diagrams we would like to color certain elements based on certain rules. The plugin could do the following:
 
