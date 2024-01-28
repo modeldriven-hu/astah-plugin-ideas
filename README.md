@@ -23,6 +23,18 @@ Functions:
 - undo/redo support
 - etc.
 
+## Legend [done]
+
+-See: https://github.com/modeldriven-hu/astah-matrix
+
+In some diagrams we would like to color certain elements based on certain rules. The plugin could do the following:
+
+- Define legend (name and legend items)
+- Define legend item (text color, background color, etc. and the rule)
+- Allocate a legend to one or multiple diagrams
+- See which legends are allocated to the diagram
+- Apply legend on the diagram
+
 ## Plugin manager and plugin server
 
 In a corporate environment it is really difficult to distribute plugins. The plugin manager allows users to download plugins
@@ -49,17 +61,6 @@ Functions:
 - Create interfaces, operations, requests, responses, etc.
 - Customization: which is the counterpart of an OpenAPI concept (stereotype, etc.)
 
-## Legend [done]
-
--See: https://github.com/modeldriven-hu/astah-matrix
-
-In some diagrams we would like to color certain elements based on certain rules. The plugin could do the following:
-
-- Define legend (name and legend items)
-- Define legend item (text color, background color, etc. and the rule)
-- Allocate a legend to one or multiple diagrams
-- See which legends are allocated to the diagram
-- Apply legend on the diagram
 
 ## Generic table
 
