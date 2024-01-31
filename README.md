@@ -34,7 +34,7 @@ Functions:
 
 ## Legend [done]
 
--See: https://github.com/modeldriven-hu/astah-matrix
+-See: https://github.com/modeldriven-hu/astah-legend
 
 In some diagrams we would like to color certain elements based on certain rules. The plugin could do the following:
 
