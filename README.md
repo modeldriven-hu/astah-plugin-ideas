@@ -3,6 +3,15 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
+## Diagram helper plugin
+
+Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more fun!
+
+- Straighten line (remove additional point, keep only the start and end point)
+- Input coordinates (display x,y coordinate, width and height, and allow modification of it by entering new values. Could keep also aspect ratio. Also could keep connection points.
+- Automatic layout (automatically layout the diagram based on certain rules)
+- Fit diagram border: allow to fit the diagram border
+  
 ## Rich text editor [partially done]
 
 - See: https://github.com/modeldriven-hu/astah-rich-document
