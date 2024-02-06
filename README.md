@@ -3,6 +3,26 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
+## UML Profile editor plugin
+
+Currently Astah SysML is not able to create custom profiles with tags, only internal profiles, however, it is able to import external profiles.
+One way to create a profile is to use Eclipse UML, described on the following page: 
+
+https://wiki.eclipse.org/MDT/UML2/Introduction_to_UML2_Profiles
+
+It would be beneficial to have the profile editing capability inside Astah, instead of needing to open a 3rd party tool.
+
+- Create a new profile
+- Load profile from file
+- Save profile to file
+- Add stereotypes to the profile
+- Set metaclass for stereotypes
+- Add tags to stereotypes
+- Set multiplicity for a tag
+- Set type for a tag
+- Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
+
+
 ## Diagram helper plugin
 
 Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more fun!
