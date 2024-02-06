@@ -79,7 +79,7 @@ Functions:
 - Check digital signature before install
 - etc.
 
-## OpenAPI import
+## OpenAPI import [in progress]
 
 When working with software systems often we need to integrate with API-s described in a form of OpenAPI (Swagger) specification. The 
 OpenAPI import plugin would import an OpenAPI specification into the model.
