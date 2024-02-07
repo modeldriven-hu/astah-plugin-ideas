@@ -23,7 +23,7 @@ It would be beneficial to have the profile editing capability inside Astah, inst
 - Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
 
 
-## Diagram helper plugin
+## Diagram helper plugin [in progress]
 
 Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more fun!
 
@@ -31,6 +31,7 @@ Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more f
 - Input coordinates (display x,y coordinate, width and height, and allow modification of it by entering new values. Could keep also aspect ratio. Also could keep connection points.
 - Automatic layout (automatically layout the diagram based on certain rules)
 - Fit diagram border: allow to fit the diagram border
+- Snap to pixel
   
 ## Rich text editor [partially done]
 
@@ -39,18 +40,19 @@ Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more f
 For documenting model elements Astah only provides a text area. In this plugin, when the user select a model element, the
 associated documentation would be visible in the rich text editor. When the user deselects a model element, then it the 
 editor will be empty and disabled. When user selects multiple elements, the editor will be likewise empty and disabled.
+
 Functions:
-- bold
-- italic
-- align (left, right, center, justify)
-- color (background, foreground)
-- list
-- numbering
-- table
-- link
-- image?
-- undo/redo support
-- etc.
+- [x] bold
+- [x] italic
+- [x] align (left, right, center, justify)
+- [x] color (background, foreground)
+- [ ] list
+- [ ] numbering
+- [ ] table
+- [ ] link
+- [ ] image?
+- [ ] undo/redo support
+- [ ] etc.
 
 ## Legend [done]
 
@@ -72,11 +74,13 @@ from a configured repository on demand.
 Functions:
 - Server hosts plugin bundles
 - Configure multiple plugin servers / repositories
+- Nexus? Reposilite? 
 - List plugins
 - Search for plugin
 - Filter plugins by type
 - Notify user when a new version of an installed plugin is available
 - Check digital signature before install
+- Use some well defined repository as source
 - etc.
 
 ## OpenAPI import [in progress]
