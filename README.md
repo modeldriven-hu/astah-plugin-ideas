@@ -12,16 +12,15 @@ https://wiki.eclipse.org/MDT/UML2/Introduction_to_UML2_Profiles
 
 It would be beneficial to have the profile editing capability inside Astah, instead of needing to open a 3rd party tool.
 
-- Create a new profile
-- Load profile from file
-- Save profile to file
-- Add stereotypes to the profile
-- Set metaclass for stereotypes
-- Add tags to stereotypes
-- Set multiplicity for a tag
-- Set type for a tag
-- Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
-
+- [X] Create a new profile
+- [X] Load profile from file
+- [X] Save profile to file
+- [X] Add stereotypes to the profile
+- [X] Set metaclass for stereotypes
+- [X] Add tags to stereotypes
+- [ ] Set multiplicity for a tag
+- [X] Set type for a tag
+- [ ] Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
 
 ## Diagram helper plugin [in progress]
 
