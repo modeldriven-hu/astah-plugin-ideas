@@ -21,6 +21,9 @@ It would be beneficial to have the profile editing capability inside Astah, inst
 - [ ] Set multiplicity for a tag
 - [X] Set type for a tag
 - [ ] Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
+- [ ] Handle versioning if possible (maybe not, to be validated)
+- [ ] Able to update a model file with changes, handle only addition, and not removal
+- [ ] Able to import profile from an existing model file, display which profile the user wants to use and modify
 
 ## Diagram helper plugin [in progress]
 
