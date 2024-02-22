@@ -3,7 +3,7 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
-## UML Profile editor plugin [partially done]
+## UML Profile editor plugin [done]
 
 - See: https://github.com/modeldriven-hu/astah-profile
 
@@ -20,12 +20,8 @@ It would be beneficial to have the profile editing capability inside Astah, inst
 - [X] Add stereotypes to the profile
 - [X] Set metaclass for stereotypes
 - [X] Add tags to stereotypes
-- [ ] Set multiplicity for a tag
 - [X] Set type for a tag
-- [ ] Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
-- [ ] Handle versioning if possible (maybe not, to be validated)
 - [X] Able to update a model file with changes, handle only addition, and not removal
-- [ ] Able to import profile from an existing model file, display which profile the user wants to use and modify
 
 ## Diagram helper plugin [in progress]
 
