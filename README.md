@@ -3,7 +3,9 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
-## UML Profile editor plugin [in progress]
+## UML Profile editor plugin [partially done]
+
+- See: https://github.com/modeldriven-hu/astah-profile
 
 Currently Astah SysML is not able to create custom profiles with tags, only internal profiles, however, it is able to import external profiles.
 One way to create a profile is to use Eclipse UML, described on the following page: 
@@ -22,7 +24,7 @@ It would be beneficial to have the profile editing capability inside Astah, inst
 - [X] Set type for a tag
 - [ ] Validate profile according to Astah rules (or don't even allow a creation of wrong profiles)
 - [ ] Handle versioning if possible (maybe not, to be validated)
-- [ ] Able to update a model file with changes, handle only addition, and not removal
+- [X] Able to update a model file with changes, handle only addition, and not removal
 - [ ] Able to import profile from an existing model file, display which profile the user wants to use and modify
 
 ## Diagram helper plugin [in progress]
