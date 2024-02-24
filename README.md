@@ -23,14 +23,14 @@ It would be beneficial to have the profile editing capability inside Astah, inst
 - [X] Set type for a tag
 - [X] Able to update a model file with changes, handle only addition, and not removal
 
-## Diagram helper plugin [in progress]
+## Diagram helper plugin [done]
+
+- See: https://github.com/modeldriven-hu/astah-easy-diagram
 
 Everyone hates pixel pushing, it makes modeling so not fun. Let's make it more fun!
 
 - Straighten line (remove additional point, keep only the start and end point)
 - Input coordinates (display x,y coordinate, width and height, and allow modification of it by entering new values. Could keep also aspect ratio. Also could keep connection points.
-- Automatic layout (automatically layout the diagram based on certain rules)
-- Fit diagram border: allow to fit the diagram border
 - Snap to pixel
   
 ## Rich text editor [partially done]
