@@ -3,6 +3,10 @@
 The following repository contains all the ideas that we came up for Astah, a great modeling tool. If you would
 like to implement any of these ideas, feel free to contact me, I am happy to support you.
 
+## Import schema structure from SQL database
+
+Import schema structure from an SQL database into Astah.
+
 ## UML Profile editor plugin [done]
 
 - See: https://github.com/modeldriven-hu/astah-profile
