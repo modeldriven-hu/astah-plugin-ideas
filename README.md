@@ -87,7 +87,9 @@ Functions:
 - Use some well defined repository as source
 - etc.
 
-## OpenAPI import [in progress]
+## OpenAPI import [done]
+
+- See https://github.com/modeldriven-hu/astah-openapi
 
 When working with software systems often we need to integrate with API-s described in a form of OpenAPI (Swagger) specification. The 
 OpenAPI import plugin would import an OpenAPI specification into the model.
@@ -97,7 +99,6 @@ Functions:
 - List available endpoints, allow selection only a subsets of endpoints
 - Create interfaces, operations, requests, responses, etc.
 - Customization: which is the counterpart of an OpenAPI concept (stereotype, etc.)
-
 
 ## Generic table
 
@@ -122,17 +123,26 @@ This is a challenging but super interesting task. Add OSLC client support to Ast
 be built up. A good starting point could be an integration to requirements part of the following reference implementation:  
 https://github.com/oslc-op/refimpl
 
-## Model import without Astah
+## Model import without Astah [POC done]
+
+- https://github.com/modeldriven-hu/astah-xmi
 
 Being able to offline import a model and run for example validation rules on it. It would be great if we could put a model in a
 CI/CD environment and have a git hook to run verification / model transformation.
 
-## HTML generation
+## HTML generation [Done]
+
+- Part of the model server solution
 
 Export a document into a HTML.
 
-## Model server
+## Model server [In development]
 
-A model server could get a model file and serve it to various interfaces. OSLC, REST, etc. It could also support locking/version
-management.
+- The MVP is done
+- Currently allows to upload models and share them on a web based interface for registered users
+- Will be commercially available in 2025
+- Additional features like the ones described below might be added later
+
+A model server could get a model file and serve it to various interfaces. OSLC, REST, etc. 
+It could also support locking/version management.
 
