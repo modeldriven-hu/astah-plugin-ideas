@@ -146,3 +146,7 @@ Export a document into a HTML.
 A model server could get a model file and serve it to various interfaces. OSLC, REST, etc. 
 It could also support locking/version management.
 
+## Text based modeling capability with LLM support
+
+The idea is to extend Astah SysML with a text based syntax (similar to PlantUML) that is more familiar to developers. This might be also combined with some AI/LLM capabilites. The idea is that they can quickly create a preview diagram and then transform it into a real model structure.
+
