@@ -113,9 +113,11 @@ Functions:
 - Create new model element (for example requirement)
 - Export to CSV/Excel
 
-## Statistics
+## Statistics [partially done]
 
 Display statistics of the model. Number of model elements, by type, number of diagrams, by type, etc.
+
+Partially done as part of the Easy Diagram Plugin.
 
 ## OSLC support
 
